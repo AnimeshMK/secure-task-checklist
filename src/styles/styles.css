@@ -1,0 +1,93 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.checklist-container {
+  padding: 30px 60px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00ffd5;
+  margin-bottom: 20px;
+}
+
+.add-task-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.add-task-button:hover {
+  background-color: #0f5ed7;
+}
+
+.plus-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.input-box {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #444;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+  max-width: 400px;
+}
+
+.task-input, .calendar-picker {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #888;
+  background-color: #fff;
+  color: #000;
+}
+
+.done-button {
+  background-color: #00ffd5;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.done-button:hover {
+  background-color: #00c4a7;
+}
+
+.task-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.task-item {
+  background-color: #282828;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.deadline {
+  color: #ffdf57;
+}
